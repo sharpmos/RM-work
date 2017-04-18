@@ -1,0 +1,35 @@
+\documentclass[10]{article}
+\begin{document}
+\begin{title}
+\huge{\bfseries COMPUTER NETWORKS}
+\end{title}
+\author{BAMUZIBIRE SOLOMON MUKISA,14/U/3938/PS,214015782}
+\section{Introduction}
+Least squares problems
+QR factorization of a matrix is the decomposition of a matrix D into a product D=QR of an orthogonal matrix Q and an upper triangular matrix R.
+Orthogonal basis is the relation of two lines at right angles to one another and the generalization of this relation into n dimensions.
+Orthonormal basis is a square matrix with real entries whose columns and rows are orthogonal unit vectors
+
+
+\subsection{Background}
+
+
+
+
+\section\{literature Review}
+A QR factorization splits the A matrix up into an upper triangular R matrix, and an orthogonal Q matrix. Since only R is really needed to compute the solution, there is no need to actually form and save Q. This reduces the storage required to just that needed to store R and some space for housekeeping.
+For the QR factorization, the R matrix starts out in the form of a spanning tree followed by the redundant shots. Most surveys are already in that form or can be put into it with trivial effort. For a collection of shots with no order, you would have to put it into that form, but that can be done in linear time.
+After the QR factorization, the upper triangular part of R is now the same as would have computed for the Cholesky factorization. This allows us to use the computed R to get the solution exactly the same way that it would be used for a solution by normal equations.
+Consider solution of the linear system Ax = b with A ∈ C m×m nonsingular.
+Since Ax = b ⇐⇒ QRx = b ⇐⇒ Rx = Q ∗ b, where the last equation holds since Q is unitary, we can proceed as follows:
+ 1. Compute A = QR (which is the same as A = QˆRˆ in this case).
+ 2. Compute y = Q∗b.
+ 3. Solve the upper triangular Rx = y
+•	The QR factorization can also be applied to rectangular systems and it is the basis of Mat lab’s backslash matrix division operator.
+
+
+
+
+
+
+\end{document}
